@@ -1,0 +1,17 @@
+[2023-10-01T15:20:10.257+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: MYFIRSTDAG.starting scheduled__2023-10-01T09:23:00+00:00 [queued]>
+[2023-10-01T15:20:10.261+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: MYFIRSTDAG.starting scheduled__2023-10-01T09:23:00+00:00 [queued]>
+[2023-10-01T15:20:10.261+0200] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-01T15:20:10.268+0200] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): starting> on 2023-10-01 09:23:00+00:00
+[2023-10-01T15:20:10.271+0200] {standard_task_runner.py:57} INFO - Started process 23553 to run task
+[2023-10-01T15:20:10.273+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'MYFIRSTDAG', 'starting', 'scheduled__2023-10-01T09:23:00+00:00', '--job-id', '1140', '--raw', '--subdir', 'DAGS_FOLDER/mycsvdagx2.py', '--cfg-path', '/tmp/tmp3_fzf15y']
+[2023-10-01T15:20:10.273+0200] {standard_task_runner.py:85} INFO - Job 1140: Subtask starting
+[2023-10-01T15:20:10.291+0200] {task_command.py:415} INFO - Running <TaskInstance: MYFIRSTDAG.starting scheduled__2023-10-01T09:23:00+00:00 [running]> on host radtrz-B450-AORUS-ELITE
+[2023-10-01T15:20:10.327+0200] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='radtrz' AIRFLOW_CTX_DAG_ID='MYFIRSTDAG' AIRFLOW_CTX_TASK_ID='starting' AIRFLOW_CTX_EXECUTION_DATE='2023-10-01T09:23:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-01T09:23:00+00:00'
+[2023-10-01T15:20:10.328+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-10-01T15:20:10.328+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "I am reading the CSV now ..."']
+[2023-10-01T15:20:10.334+0200] {subprocess.py:86} INFO - Output:
+[2023-10-01T15:20:10.335+0200] {subprocess.py:93} INFO - I am reading the CSV now ...
+[2023-10-01T15:20:10.335+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-01T15:20:10.344+0200] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=MYFIRSTDAG, task_id=starting, execution_date=20231001T092300, start_date=20231001T132010, end_date=20231001T132010
+[2023-10-01T15:20:10.364+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-01T15:20:10.372+0200] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

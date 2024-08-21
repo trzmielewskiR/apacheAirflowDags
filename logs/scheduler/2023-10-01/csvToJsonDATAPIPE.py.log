@@ -1,0 +1,12 @@
+[2023-10-01T14:08:58.309+0200] {processor.py:157} INFO - Started process (PID=21640) to work on /home/radtrz/airflow/dags/csvToJsonDATAPIPE.py
+[2023-10-01T14:08:58.309+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/csvToJsonDATAPIPE.py for tasks to queue
+[2023-10-01T14:08:58.310+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.310+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/csvToJsonDATAPIPE.py
+[2023-10-01T14:08:58.467+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYCSVDAG']) retrieved from /home/radtrz/airflow/dags/csvToJsonDATAPIPE.py
+[2023-10-01T14:08:58.617+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.617+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T14:08:58.623+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.623+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T14:08:58.627+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.627+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T14:08:58.628+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.627+0200] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:MYCSVDAG' as access control is unset.
+[2023-10-01T14:08:58.628+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.628+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T14:08:58.633+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.632+0200] {dag.py:2937} INFO - Creating ORM DAG for MYCSVDAG
+[2023-10-01T14:08:58.636+0200] {logging_mixin.py:151} INFO - [2023-10-01T14:08:58.636+0200] {dag.py:3696} INFO - Setting next_dagrun for MYCSVDAG to 2023-10-01T00:00:00+00:00, run_after=2023-10-01T00:05:00+00:00
+[2023-10-01T14:08:58.645+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/csvToJsonDATAPIPE.py took 0.338 seconds

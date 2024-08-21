@@ -1,0 +1,30 @@
+[2023-10-01T19:35:37.819+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [queued]>
+[2023-10-01T19:35:37.822+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [queued]>
+[2023-10-01T19:35:37.822+0200] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-01T19:35:37.829+0200] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): QueryPostGreSQL> on 2023-10-01 00:20:00+00:00
+[2023-10-01T19:35:37.833+0200] {standard_task_runner.py:57} INFO - Started process 77278 to run task
+[2023-10-01T19:35:37.835+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'MYDBDAG', 'QueryPostGreSQL', 'scheduled__2023-10-01T00:20:00+00:00', '--job-id', '2089', '--raw', '--subdir', 'DAGS_FOLDER/databaseDAG.py', '--cfg-path', '/tmp/tmpnvcdksdy']
+[2023-10-01T19:35:37.836+0200] {standard_task_runner.py:85} INFO - Job 2089: Subtask QueryPostGreSQL
+[2023-10-01T19:35:37.853+0200] {task_command.py:415} INFO - Running <TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [running]> on host radtrz-B450-AORUS-ELITE
+[2023-10-01T19:35:37.887+0200] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='radtrz' AIRFLOW_CTX_DAG_ID='MYDBDAG' AIRFLOW_CTX_TASK_ID='QueryPostGreSQL' AIRFLOW_CTX_EXECUTION_DATE='2023-10-01T00:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-01T00:20:00+00:00'
+[2023-10-01T19:35:37.897+0200] {logging_mixin.py:151} WARNING - /home/radtrz/airflow/dags/databaseDAG.py:23 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-01T19:35:37.902+0200] {logging_mixin.py:151} INFO - ---------DataSaved--------
+[2023-10-01T19:35:37.902+0200] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-01T19:35:37.905+0200] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=MYDBDAG, task_id=QueryPostGreSQL, execution_date=20231001T002000, start_date=20231001T173537, end_date=20231001T173537
+[2023-10-01T19:35:37.926+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-01T19:35:37.934+0200] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-10-01T19:43:21.051+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [queued]>
+[2023-10-01T19:43:21.055+0200] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [queued]>
+[2023-10-01T19:43:21.055+0200] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-10-01T19:43:21.063+0200] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): QueryPostGreSQL> on 2023-10-01 00:20:00+00:00
+[2023-10-01T19:43:21.067+0200] {standard_task_runner.py:57} INFO - Started process 79304 to run task
+[2023-10-01T19:43:21.068+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'MYDBDAG', 'QueryPostGreSQL', 'scheduled__2023-10-01T00:20:00+00:00', '--job-id', '2087', '--raw', '--subdir', 'DAGS_FOLDER/databaseDAG.py', '--cfg-path', '/tmp/tmpigmp7aq8']
+[2023-10-01T19:43:21.069+0200] {standard_task_runner.py:85} INFO - Job 2087: Subtask QueryPostGreSQL
+[2023-10-01T19:43:21.088+0200] {task_command.py:415} INFO - Running <TaskInstance: MYDBDAG.QueryPostGreSQL scheduled__2023-10-01T00:20:00+00:00 [running]> on host radtrz-B450-AORUS-ELITE
+[2023-10-01T19:43:21.129+0200] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='radtrz' AIRFLOW_CTX_DAG_ID='MYDBDAG' AIRFLOW_CTX_TASK_ID='QueryPostGreSQL' AIRFLOW_CTX_EXECUTION_DATE='2023-10-01T00:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-01T00:20:00+00:00'
+[2023-10-01T19:43:21.140+0200] {logging_mixin.py:151} WARNING - /home/radtrz/airflow/dags/databaseDAG.py:23 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-01T19:43:21.144+0200] {logging_mixin.py:151} INFO - ---------DataSaved--------
+[2023-10-01T19:43:21.144+0200] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-01T19:43:21.147+0200] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=MYDBDAG, task_id=QueryPostGreSQL, execution_date=20231001T002000, start_date=20231001T174321, end_date=20231001T174321
+[2023-10-01T19:43:21.160+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-01T19:43:21.168+0200] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

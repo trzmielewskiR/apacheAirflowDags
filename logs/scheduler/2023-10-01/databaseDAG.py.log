@@ -1,0 +1,654 @@
+[2023-10-01T19:35:11.679+0200] {processor.py:157} INFO - Started process (PID=77093) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:11.679+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:35:11.680+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:11.679+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:11.980+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:12.043+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.043+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T19:35:12.049+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.049+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T19:35:12.054+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.053+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-01T19:35:12.054+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.054+0200] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:MYDBDAG' as access control is unset.
+[2023-10-01T19:35:12.054+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.054+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:35:12.059+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.059+0200] {dag.py:2937} INFO - Creating ORM DAG for MYDBDAG
+[2023-10-01T19:35:12.063+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:12.063+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T00:00:00+00:00, run_after=2023-10-01T00:05:00+00:00
+[2023-10-01T19:35:12.072+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.395 seconds
+[2023-10-01T19:35:42.352+0200] {processor.py:157} INFO - Started process (PID=77326) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:42.352+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:35:42.353+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:42.352+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:42.644+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:35:42.653+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:42.653+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:35:42.663+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:35:42.663+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T00:30:00+00:00, run_after=2023-10-01T00:35:00+00:00
+[2023-10-01T19:35:42.681+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:36:12.779+0200] {processor.py:157} INFO - Started process (PID=77637) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:12.779+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:36:12.780+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:36:12.779+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:13.072+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:13.080+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:36:13.080+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:36:13.107+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.330 seconds
+[2023-10-01T19:36:43.369+0200] {processor.py:157} INFO - Started process (PID=77700) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:43.377+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:36:43.378+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:36:43.377+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:43.672+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:36:43.682+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:36:43.681+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:36:43.706+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.339 seconds
+[2023-10-01T19:37:08.642+0200] {processor.py:157} INFO - Started process (PID=77761) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:08.657+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:37:08.657+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:37:08.657+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:08.957+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:08.966+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:37:08.965+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:37:09.006+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.365 seconds
+[2023-10-01T19:37:39.240+0200] {processor.py:157} INFO - Started process (PID=77862) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:39.249+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:37:39.249+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:37:39.249+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:39.551+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:37:39.561+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:37:39.560+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:37:39.582+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.343 seconds
+[2023-10-01T19:38:09.878+0200] {processor.py:157} INFO - Started process (PID=77975) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:09.887+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:38:09.888+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:38:09.887+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:10.196+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:10.205+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:38:10.205+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:38:10.233+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.356 seconds
+[2023-10-01T19:38:40.482+0200] {processor.py:157} INFO - Started process (PID=78029) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:40.490+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:38:40.491+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:38:40.490+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:40.774+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:38:40.782+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:38:40.782+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:38:40.813+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.333 seconds
+[2023-10-01T19:39:10.987+0200] {processor.py:157} INFO - Started process (PID=78094) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:10.987+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:39:10.988+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:39:10.987+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:11.286+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:11.295+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:39:11.295+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:39:11.326+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.341 seconds
+[2023-10-01T19:39:41.626+0200] {processor.py:157} INFO - Started process (PID=78147) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:41.634+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:39:41.635+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:39:41.635+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:41.923+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:39:41.932+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:39:41.932+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:39:41.966+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.342 seconds
+[2023-10-01T19:40:12.113+0200] {processor.py:157} INFO - Started process (PID=78190) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:12.113+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:40:12.114+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:40:12.114+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:12.399+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:12.408+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:40:12.407+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:40:12.438+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.326 seconds
+[2023-10-01T19:40:42.914+0200] {processor.py:157} INFO - Started process (PID=78347) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:42.922+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:40:42.923+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:40:42.923+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:43.214+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:40:43.224+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:40:43.224+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:40:43.233+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:40:43.233+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T01:15:00+00:00, run_after=2023-10-01T01:20:00+00:00
+[2023-10-01T19:40:43.243+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:41:13.485+0200] {processor.py:157} INFO - Started process (PID=78552) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:13.493+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:41:13.494+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:13.493+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:13.782+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:13.791+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:13.791+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:41:13.800+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:13.800+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T01:20:00+00:00, run_after=2023-10-01T01:25:00+00:00
+[2023-10-01T19:41:13.818+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.336 seconds
+[2023-10-01T19:41:44.123+0200] {processor.py:157} INFO - Started process (PID=78885) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:44.123+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:41:44.124+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:44.123+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:44.419+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:41:44.428+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:44.428+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:41:44.437+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:41:44.437+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T02:15:00+00:00, run_after=2023-10-01T02:20:00+00:00
+[2023-10-01T19:41:44.459+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.338 seconds
+[2023-10-01T19:42:15.309+0200] {processor.py:157} INFO - Started process (PID=78993) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:15.310+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:42:15.310+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:15.310+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:15.608+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:15.617+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:15.616+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:42:15.652+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.345 seconds
+[2023-10-01T19:42:27.170+0200] {processor.py:157} INFO - Started process (PID=79026) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:27.179+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:42:27.179+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:27.179+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:27.476+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:27.484+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:27.484+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:42:27.514+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.347 seconds
+[2023-10-01T19:42:57.704+0200] {processor.py:157} INFO - Started process (PID=79165) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:57.705+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:42:57.705+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:57.705+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:57.994+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:42:58.040+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:58.039+0200] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:MYDBDAG' as access control is unset.
+[2023-10-01T19:42:58.040+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:58.040+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:42:58.045+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:58.045+0200] {dag.py:2937} INFO - Creating ORM DAG for MYDBDAG
+[2023-10-01T19:42:58.049+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:42:58.049+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T00:00:00+00:00, run_after=2023-10-01T00:05:00+00:00
+[2023-10-01T19:42:58.067+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.365 seconds
+[2023-10-01T19:43:30.737+0200] {processor.py:157} INFO - Started process (PID=79355) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:43:30.737+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:43:30.738+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:43:30.738+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:43:31.072+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:43:31.081+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:43:31.081+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:43:31.091+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:43:31.091+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T00:30:00+00:00, run_after=2023-10-01T00:35:00+00:00
+[2023-10-01T19:43:31.101+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.367 seconds
+[2023-10-01T19:44:05.421+0200] {processor.py:157} INFO - Started process (PID=79590) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:05.422+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:44:05.422+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:05.422+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:05.741+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:05.750+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:05.750+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:44:05.761+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:05.760+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T01:00:00+00:00, run_after=2023-10-01T01:05:00+00:00
+[2023-10-01T19:44:05.772+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.353 seconds
+[2023-10-01T19:44:39.562+0200] {processor.py:157} INFO - Started process (PID=79805) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:39.562+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:44:39.563+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:39.563+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:39.870+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:44:39.880+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:39.880+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:44:39.892+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:44:39.892+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T01:30:00+00:00, run_after=2023-10-01T01:35:00+00:00
+[2023-10-01T19:44:39.902+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.342 seconds
+[2023-10-01T19:45:13.626+0200] {processor.py:157} INFO - Started process (PID=80017) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:13.626+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:45:13.627+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:13.627+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:13.926+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:13.935+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:13.935+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:45:13.945+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:13.945+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T02:00:00+00:00, run_after=2023-10-01T02:05:00+00:00
+[2023-10-01T19:45:13.955+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:45:47.717+0200] {processor.py:157} INFO - Started process (PID=80227) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:47.718+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:45:47.719+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:47.719+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:48.023+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:45:48.033+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:48.033+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:45:48.042+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:45:48.042+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T02:30:00+00:00, run_after=2023-10-01T02:35:00+00:00
+[2023-10-01T19:45:48.053+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.338 seconds
+[2023-10-01T19:46:22.058+0200] {processor.py:157} INFO - Started process (PID=80419) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:22.058+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:46:22.059+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:22.059+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:22.390+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:22.400+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:22.400+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:46:22.408+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:22.408+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T03:00:00+00:00, run_after=2023-10-01T03:05:00+00:00
+[2023-10-01T19:46:22.418+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.363 seconds
+[2023-10-01T19:46:55.961+0200] {processor.py:157} INFO - Started process (PID=80644) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:55.962+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:46:55.962+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:55.962+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:56.253+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:46:56.262+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:56.262+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:46:56.271+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:46:56.271+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T03:30:00+00:00, run_after=2023-10-01T03:35:00+00:00
+[2023-10-01T19:46:56.286+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.326 seconds
+[2023-10-01T19:47:30.276+0200] {processor.py:157} INFO - Started process (PID=81119) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:47:30.277+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:47:30.277+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:47:30.277+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:47:30.579+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:47:30.589+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:47:30.588+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:47:30.598+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:47:30.598+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T04:00:00+00:00, run_after=2023-10-01T04:05:00+00:00
+[2023-10-01T19:47:30.609+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.335 seconds
+[2023-10-01T19:48:04.661+0200] {processor.py:157} INFO - Started process (PID=81316) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:04.662+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:48:04.662+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:04.662+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:04.958+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:04.967+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:04.967+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:48:04.976+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:04.976+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T04:30:00+00:00, run_after=2023-10-01T04:35:00+00:00
+[2023-10-01T19:48:04.991+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.332 seconds
+[2023-10-01T19:48:38.672+0200] {processor.py:157} INFO - Started process (PID=81516) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:38.672+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:48:38.673+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:38.673+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:38.965+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:48:38.975+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:38.975+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:48:38.984+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:48:38.984+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T05:00:00+00:00, run_after=2023-10-01T05:05:00+00:00
+[2023-10-01T19:48:38.995+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.325 seconds
+[2023-10-01T19:49:13.090+0200] {processor.py:157} INFO - Started process (PID=81742) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:13.091+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:49:13.091+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:13.091+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:13.380+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:13.389+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:13.389+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:49:13.398+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:13.398+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T05:30:00+00:00, run_after=2023-10-01T05:35:00+00:00
+[2023-10-01T19:49:13.409+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.322 seconds
+[2023-10-01T19:49:47.022+0200] {processor.py:157} INFO - Started process (PID=81974) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:47.023+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:49:47.023+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:47.023+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:47.323+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:49:47.332+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:47.332+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:49:47.341+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:49:47.341+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T06:00:00+00:00, run_after=2023-10-01T06:05:00+00:00
+[2023-10-01T19:49:47.351+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:50:20.332+0200] {processor.py:157} INFO - Started process (PID=82184) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:20.333+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:50:20.333+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:20.333+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:20.628+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:20.637+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:20.637+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:50:20.646+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:20.646+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T06:30:00+00:00, run_after=2023-10-01T06:35:00+00:00
+[2023-10-01T19:50:20.657+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.327 seconds
+[2023-10-01T19:50:54.199+0200] {processor.py:157} INFO - Started process (PID=82392) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:54.200+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:50:54.200+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:54.200+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:54.500+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:50:54.509+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:54.509+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:50:54.518+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:50:54.518+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T07:00:00+00:00, run_after=2023-10-01T07:05:00+00:00
+[2023-10-01T19:50:54.528+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:51:28.001+0200] {processor.py:157} INFO - Started process (PID=82603) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:51:28.002+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:51:28.002+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:51:28.002+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:51:28.318+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:51:28.328+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:51:28.327+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:51:28.337+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:51:28.337+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T07:30:00+00:00, run_after=2023-10-01T07:35:00+00:00
+[2023-10-01T19:51:28.347+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.348 seconds
+[2023-10-01T19:52:01.660+0200] {processor.py:157} INFO - Started process (PID=82813) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:01.661+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:52:01.661+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:01.661+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:02.004+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:02.013+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:02.013+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:52:02.022+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:02.022+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T08:00:00+00:00, run_after=2023-10-01T08:05:00+00:00
+[2023-10-01T19:52:02.032+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.375 seconds
+[2023-10-01T19:52:35.657+0200] {processor.py:157} INFO - Started process (PID=83037) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:35.657+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:52:35.658+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:35.658+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:35.972+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:52:35.981+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:35.981+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:52:35.991+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:52:35.991+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T08:30:00+00:00, run_after=2023-10-01T08:35:00+00:00
+[2023-10-01T19:52:36.016+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.361 seconds
+[2023-10-01T19:53:09.718+0200] {processor.py:157} INFO - Started process (PID=83241) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:09.718+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:53:09.719+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:09.719+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:10.019+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:10.029+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:10.028+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:53:10.038+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:10.038+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T09:00:00+00:00, run_after=2023-10-01T09:05:00+00:00
+[2023-10-01T19:53:10.049+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.333 seconds
+[2023-10-01T19:53:43.798+0200] {processor.py:157} INFO - Started process (PID=83464) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:43.798+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:53:43.799+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:43.799+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:44.109+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:53:44.118+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:44.118+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:53:44.127+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:53:44.127+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T09:30:00+00:00, run_after=2023-10-01T09:35:00+00:00
+[2023-10-01T19:53:44.138+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.342 seconds
+[2023-10-01T19:54:17.944+0200] {processor.py:157} INFO - Started process (PID=83662) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:17.944+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:54:17.945+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:17.945+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:18.241+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:18.250+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:18.250+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:54:18.261+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:18.261+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T10:00:00+00:00, run_after=2023-10-01T10:05:00+00:00
+[2023-10-01T19:54:18.273+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:54:51.995+0200] {processor.py:157} INFO - Started process (PID=83861) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:51.996+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:54:51.996+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:51.996+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:52.309+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:54:52.319+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:52.318+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:54:52.329+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:54:52.329+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T10:30:00+00:00, run_after=2023-10-01T10:35:00+00:00
+[2023-10-01T19:54:52.340+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.346 seconds
+[2023-10-01T19:55:26.202+0200] {processor.py:157} INFO - Started process (PID=84085) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:55:26.203+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:55:26.203+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:55:26.203+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:55:26.503+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:55:26.512+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:55:26.512+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:55:26.522+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:55:26.522+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T11:00:00+00:00, run_after=2023-10-01T11:05:00+00:00
+[2023-10-01T19:55:26.532+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:56:00.385+0200] {processor.py:157} INFO - Started process (PID=84289) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:00.385+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:56:00.386+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:00.386+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:00.699+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:00.709+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:00.708+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:56:00.719+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:00.719+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T11:30:00+00:00, run_after=2023-10-01T11:35:00+00:00
+[2023-10-01T19:56:00.730+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.348 seconds
+[2023-10-01T19:56:34.293+0200] {processor.py:157} INFO - Started process (PID=84485) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:34.302+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:56:34.302+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:34.302+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:34.592+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:56:34.600+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:34.600+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:56:34.610+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:56:34.610+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T12:00:00+00:00, run_after=2023-10-01T12:05:00+00:00
+[2023-10-01T19:56:34.631+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.340 seconds
+[2023-10-01T19:57:08.087+0200] {processor.py:157} INFO - Started process (PID=84701) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:08.087+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:57:08.088+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:08.088+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:08.386+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:08.395+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:08.395+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:57:08.405+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:08.405+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T12:30:00+00:00, run_after=2023-10-01T12:35:00+00:00
+[2023-10-01T19:57:08.416+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:57:42.529+0200] {processor.py:157} INFO - Started process (PID=84895) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:42.530+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:57:42.530+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:42.530+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:42.850+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:57:42.859+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:42.859+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:57:42.869+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:57:42.869+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T13:00:00+00:00, run_after=2023-10-01T13:05:00+00:00
+[2023-10-01T19:57:42.880+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.353 seconds
+[2023-10-01T19:58:16.462+0200] {processor.py:157} INFO - Started process (PID=85109) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:16.462+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:58:16.463+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:16.462+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:16.761+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:16.770+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:16.770+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:58:16.781+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:16.780+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T13:30:00+00:00, run_after=2023-10-01T13:35:00+00:00
+[2023-10-01T19:58:16.791+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.331 seconds
+[2023-10-01T19:58:50.670+0200] {processor.py:157} INFO - Started process (PID=85407) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:50.671+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:58:50.672+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:50.672+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:51.134+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:58:51.144+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:51.143+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:58:51.154+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:58:51.154+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T14:00:00+00:00, run_after=2023-10-01T14:05:00+00:00
+[2023-10-01T19:58:51.164+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.496 seconds
+[2023-10-01T19:59:24.679+0200] {processor.py:157} INFO - Started process (PID=85639) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:24.680+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:59:24.680+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:24.680+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:25.008+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:25.020+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:25.019+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:59:25.030+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:25.030+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T14:30:00+00:00, run_after=2023-10-01T14:35:00+00:00
+[2023-10-01T19:59:25.042+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.365 seconds
+[2023-10-01T19:59:58.871+0200] {processor.py:157} INFO - Started process (PID=86057) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:58.872+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T19:59:58.872+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:58.872+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:59.165+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T19:59:59.175+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:59.174+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T19:59:59.184+0200] {logging_mixin.py:151} INFO - [2023-10-01T19:59:59.184+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T15:00:00+00:00, run_after=2023-10-01T15:05:00+00:00
+[2023-10-01T19:59:59.195+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.325 seconds
+[2023-10-01T20:00:33.054+0200] {processor.py:157} INFO - Started process (PID=86348) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:00:33.054+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:00:33.055+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:00:33.055+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:00:33.346+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:00:33.355+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:00:33.355+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:00:33.364+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:00:33.364+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T15:30:00+00:00, run_after=2023-10-01T15:35:00+00:00
+[2023-10-01T20:00:33.375+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.323 seconds
+[2023-10-01T20:01:07.143+0200] {processor.py:157} INFO - Started process (PID=86578) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:07.144+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:01:07.144+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:07.144+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:07.438+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:07.448+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:07.448+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:01:07.457+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:07.457+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T16:00:00+00:00, run_after=2023-10-01T16:05:00+00:00
+[2023-10-01T20:01:07.468+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.327 seconds
+[2023-10-01T20:01:38.345+0200] {processor.py:157} INFO - Started process (PID=86817) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:38.345+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:01:38.346+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:38.346+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:38.648+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:01:38.657+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:38.657+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:01:38.666+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:01:38.666+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T16:25:00+00:00, run_after=2023-10-01T16:30:00+00:00
+[2023-10-01T20:01:38.677+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.335 seconds
+[2023-10-01T20:02:11.160+0200] {processor.py:157} INFO - Started process (PID=87030) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:11.161+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:02:11.161+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:11.161+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:11.465+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:11.476+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:11.476+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:02:11.486+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:11.485+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T16:50:00+00:00, run_after=2023-10-01T16:55:00+00:00
+[2023-10-01T20:02:11.496+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.338 seconds
+[2023-10-01T20:02:45.340+0200] {processor.py:157} INFO - Started process (PID=87421) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:45.340+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:02:45.341+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:45.341+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:45.662+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:02:45.672+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:45.671+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:02:45.681+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:02:45.681+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T17:20:00+00:00, run_after=2023-10-01T17:25:00+00:00
+[2023-10-01T20:02:45.696+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.359 seconds
+[2023-10-01T20:03:19.212+0200] {processor.py:157} INFO - Started process (PID=87696) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:19.213+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:03:19.213+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:19.213+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:19.505+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:19.514+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:19.514+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:03:19.523+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:19.523+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T17:50:00+00:00, run_after=2023-10-01T17:55:00+00:00
+[2023-10-01T20:03:19.533+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.323 seconds
+[2023-10-01T20:03:50.147+0200] {processor.py:157} INFO - Started process (PID=87787) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:50.156+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:03:50.156+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:50.156+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:50.458+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:03:50.466+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:50.466+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:03:50.476+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:03:50.475+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:00:00+00:00, run_after=2023-10-01T18:05:00+00:00
+[2023-10-01T20:03:50.494+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.349 seconds
+[2023-10-01T20:04:21.203+0200] {processor.py:157} INFO - Started process (PID=87966) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:21.212+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:04:21.212+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:21.212+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:21.515+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:21.524+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:21.524+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:04:21.533+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:21.533+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:00:00+00:00, run_after=2023-10-01T18:05:00+00:00
+[2023-10-01T20:04:21.558+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.356 seconds
+[2023-10-01T20:04:51.707+0200] {processor.py:157} INFO - Started process (PID=88027) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:51.709+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:04:51.709+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:51.709+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:52.010+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:04:52.019+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:52.018+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:04:52.028+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:04:52.028+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:00:00+00:00, run_after=2023-10-01T18:05:00+00:00
+[2023-10-01T20:04:52.047+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.342 seconds
+[2023-10-01T20:05:22.839+0200] {processor.py:157} INFO - Started process (PID=88088) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:22.848+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:05:22.848+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:22.848+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:23.152+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:23.161+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:23.161+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:05:23.172+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:23.172+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:05:23.190+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.354 seconds
+[2023-10-01T20:05:53.429+0200] {processor.py:157} INFO - Started process (PID=88117) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:53.438+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:05:53.439+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:53.438+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:53.743+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:05:53.751+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:53.751+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:05:53.761+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:05:53.761+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:05:53.780+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.352 seconds
+[2023-10-01T20:06:23.920+0200] {processor.py:157} INFO - Started process (PID=88146) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:23.929+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:06:23.929+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:23.929+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:24.230+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:24.239+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:24.239+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:06:24.249+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:24.249+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:06:24.273+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.355 seconds
+[2023-10-01T20:06:54.420+0200] {processor.py:157} INFO - Started process (PID=88568) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:54.429+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:06:54.429+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:54.429+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:54.749+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:06:54.759+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:54.759+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:06:54.771+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:06:54.770+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:06:54.791+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.373 seconds
+[2023-10-01T20:07:24.917+0200] {processor.py:157} INFO - Started process (PID=88608) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:24.925+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:07:24.926+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:24.925+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:25.224+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:25.234+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:25.233+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:07:25.243+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:25.243+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:07:25.262+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.348 seconds
+[2023-10-01T20:07:55.408+0200] {processor.py:157} INFO - Started process (PID=88638) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:55.417+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:07:55.417+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:55.417+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:55.716+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:07:55.725+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:55.725+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:07:55.738+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:07:55.738+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:07:55.757+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.351 seconds
+[2023-10-01T20:08:25.898+0200] {processor.py:157} INFO - Started process (PID=88672) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:25.907+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:08:25.907+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:25.907+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:26.203+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:26.211+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:26.211+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:08:26.220+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:26.220+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:08:26.230+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.334 seconds
+[2023-10-01T20:08:56.398+0200] {processor.py:157} INFO - Started process (PID=88701) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:56.406+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:08:56.407+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:56.406+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:56.694+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:08:56.702+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:56.702+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:08:56.711+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:08:56.711+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:08:56.731+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.335 seconds
+[2023-10-01T20:09:26.901+0200] {processor.py:157} INFO - Started process (PID=88730) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:26.909+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:09:26.910+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:26.910+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:27.202+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:27.210+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:27.210+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:09:27.220+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:27.220+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:09:27.239+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.340 seconds
+[2023-10-01T20:09:57.400+0200] {processor.py:157} INFO - Started process (PID=88787) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:57.408+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:09:57.409+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:57.409+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:57.711+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:09:57.722+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:57.722+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:09:57.733+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:09:57.733+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:05:00+00:00, run_after=2023-10-01T18:10:00+00:00
+[2023-10-01T20:09:57.744+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.346 seconds
+[2023-10-01T20:10:27.894+0200] {processor.py:157} INFO - Started process (PID=88850) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:27.895+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:10:27.895+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:27.895+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:28.190+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:28.199+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:28.199+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:10:28.208+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:28.208+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:10:28.233+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.341 seconds
+[2023-10-01T20:10:58.638+0200] {processor.py:157} INFO - Started process (PID=88882) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:58.646+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:10:58.647+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:58.647+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:58.941+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:10:58.950+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:58.950+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:10:58.959+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:10:58.959+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:10:58.981+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.345 seconds
+[2023-10-01T20:11:29.122+0200] {processor.py:157} INFO - Started process (PID=88912) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:11:29.123+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:11:29.123+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:11:29.123+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:11:29.408+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:11:29.417+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:11:29.417+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:11:29.426+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:11:29.425+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:11:29.450+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.329 seconds
+[2023-10-01T20:11:59.919+0200] {processor.py:157} INFO - Started process (PID=89006) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:11:59.927+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:11:59.928+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:11:59.928+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:12:00.228+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:12:00.237+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:12:00.236+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:12:00.246+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:12:00.246+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:12:00.267+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.350 seconds
+[2023-10-01T20:12:30.493+0200] {processor.py:157} INFO - Started process (PID=89035) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:12:30.501+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:12:30.502+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:12:30.502+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:12:30.793+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:12:30.803+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:12:30.802+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:12:30.813+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:12:30.813+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:12:30.832+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.341 seconds
+[2023-10-01T20:13:01.392+0200] {processor.py:157} INFO - Started process (PID=89112) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:01.393+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:13:01.393+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:01.393+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:01.698+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:01.708+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:01.707+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:13:01.718+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:01.718+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:13:01.739+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.349 seconds
+[2023-10-01T20:13:32.129+0200] {processor.py:157} INFO - Started process (PID=89438) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:32.137+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:13:32.138+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:32.137+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:32.426+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:13:32.435+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:32.434+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:13:32.444+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:13:32.444+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:13:32.465+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.338 seconds
+[2023-10-01T20:14:03.031+0200] {processor.py:157} INFO - Started process (PID=89469) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:03.040+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:14:03.040+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:03.040+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:03.336+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:03.345+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:03.344+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:14:03.355+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:03.355+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:14:03.380+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.350 seconds
+[2023-10-01T20:14:33.820+0200] {processor.py:157} INFO - Started process (PID=89503) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:33.820+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:14:33.821+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:33.821+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:34.106+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:14:34.116+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:34.116+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:14:34.125+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:14:34.125+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:10:00+00:00, run_after=2023-10-01T18:15:00+00:00
+[2023-10-01T20:14:34.147+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.329 seconds
+[2023-10-01T20:15:07.127+0200] {processor.py:157} INFO - Started process (PID=89581) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:07.128+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:15:07.128+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:07.128+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:07.413+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:07.423+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:07.422+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:15:07.432+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:07.432+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:15:07.442+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.316 seconds
+[2023-10-01T20:15:37.864+0200] {processor.py:157} INFO - Started process (PID=89630) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:37.873+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:15:37.873+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:37.873+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:38.160+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:15:38.170+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:38.169+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:15:38.179+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:15:38.179+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:15:38.201+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.338 seconds
+[2023-10-01T20:16:08.332+0200] {processor.py:157} INFO - Started process (PID=89766) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:08.332+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:16:08.333+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:08.333+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:08.620+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:08.629+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:08.628+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:16:08.637+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:08.637+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:16:08.656+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.326 seconds
+[2023-10-01T20:16:38.789+0200] {processor.py:157} INFO - Started process (PID=89804) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:38.797+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:16:38.798+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:38.797+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:39.097+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:16:39.106+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:39.106+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:16:39.115+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:16:39.115+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:16:39.135+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.348 seconds
+[2023-10-01T20:17:09.225+0200] {processor.py:157} INFO - Started process (PID=89880) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:09.225+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:17:09.226+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:09.225+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:09.649+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:09.663+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:09.663+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:17:09.679+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:09.679+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:17:09.696+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.473 seconds
+[2023-10-01T20:17:39.781+0200] {processor.py:157} INFO - Started process (PID=89917) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:39.782+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:17:39.783+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:39.782+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:40.112+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:17:40.121+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:40.120+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:17:40.131+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:17:40.131+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:17:40.155+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.376 seconds
+[2023-10-01T20:18:10.250+0200] {processor.py:157} INFO - Started process (PID=89987) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:10.259+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:18:10.260+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:10.260+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:10.631+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:10.642+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:10.642+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:18:10.654+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:10.654+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:18:10.675+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.427 seconds
+[2023-10-01T20:18:40.811+0200] {processor.py:157} INFO - Started process (PID=90037) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:40.820+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:18:40.821+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:40.821+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:41.177+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:18:41.188+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:41.188+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:18:41.198+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:18:41.197+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:18:41.220+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.411 seconds
+[2023-10-01T20:19:11.380+0200] {processor.py:157} INFO - Started process (PID=90097) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:11.381+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:19:11.381+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:11.381+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:11.757+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:11.771+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:11.770+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:19:11.783+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:11.783+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:19:11.797+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.419 seconds
+[2023-10-01T20:19:41.943+0200] {processor.py:157} INFO - Started process (PID=90137) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:41.952+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:19:41.953+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:41.952+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:42.300+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:19:42.311+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:42.310+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:19:42.322+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:19:42.322+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:15:00+00:00, run_after=2023-10-01T18:20:00+00:00
+[2023-10-01T20:19:42.343+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.403 seconds
+[2023-10-01T20:20:12.508+0200] {processor.py:157} INFO - Started process (PID=90296) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:12.517+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:20:12.518+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:12.517+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:12.867+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:12.877+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:12.876+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:20:12.887+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:12.887+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:20:12.899+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.393 seconds
+[2023-10-01T20:20:42.975+0200] {processor.py:157} INFO - Started process (PID=90401) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:42.976+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:20:42.977+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:42.976+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:43.496+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:20:43.511+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:43.510+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:20:43.529+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:20:43.528+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:20:43.550+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.578 seconds
+[2023-10-01T20:21:13.647+0200] {processor.py:157} INFO - Started process (PID=90526) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:13.648+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:21:13.649+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:13.648+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:14.004+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:14.016+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:14.015+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:21:14.031+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:14.031+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:21:14.047+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.401 seconds
+[2023-10-01T20:21:44.222+0200] {processor.py:157} INFO - Started process (PID=90574) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:44.223+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:21:44.223+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:44.223+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:44.612+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:21:44.625+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:44.624+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:21:44.640+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:21:44.640+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:21:44.655+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.435 seconds
+[2023-10-01T20:22:14.787+0200] {processor.py:157} INFO - Started process (PID=90744) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:14.788+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:22:14.789+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:14.788+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:15.196+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:15.209+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:15.209+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:22:15.224+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:15.224+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:22:15.241+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.455 seconds
+[2023-10-01T20:22:45.362+0200] {processor.py:157} INFO - Started process (PID=90775) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:45.363+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:22:45.363+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:45.363+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:45.747+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:22:45.758+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:45.757+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:22:45.767+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:22:45.767+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:22:45.779+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.419 seconds
+[2023-10-01T20:23:15.881+0200] {processor.py:157} INFO - Started process (PID=90815) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:15.882+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:23:15.882+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:15.882+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:16.186+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:16.195+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:16.194+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:23:16.204+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:16.204+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:23:16.214+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.334 seconds
+[2023-10-01T20:23:46.353+0200] {processor.py:157} INFO - Started process (PID=90879) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:46.353+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:23:46.354+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:46.354+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:46.641+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:23:46.650+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:46.650+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:23:46.659+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:23:46.659+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:23:46.681+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.330 seconds
+[2023-10-01T20:24:16.816+0200] {processor.py:157} INFO - Started process (PID=90907) to work on /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:24:16.825+0200] {processor.py:829} INFO - Processing file /home/radtrz/airflow/dags/databaseDAG.py for tasks to queue
+[2023-10-01T20:24:16.826+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:24:16.825+0200] {dagbag.py:539} INFO - Filling up the DagBag from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:24:17.110+0200] {processor.py:839} INFO - DAG(s) dict_keys(['MYDBDAG']) retrieved from /home/radtrz/airflow/dags/databaseDAG.py
+[2023-10-01T20:24:17.118+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:24:17.118+0200] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T20:24:17.127+0200] {logging_mixin.py:151} INFO - [2023-10-01T20:24:17.127+0200] {dag.py:3696} INFO - Setting next_dagrun for MYDBDAG to 2023-10-01T18:20:00+00:00, run_after=2023-10-01T18:25:00+00:00
+[2023-10-01T20:24:17.137+0200] {processor.py:179} INFO - Processing /home/radtrz/airflow/dags/databaseDAG.py took 0.322 seconds
